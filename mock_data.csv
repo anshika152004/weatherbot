@@ -1,0 +1,23 @@
+# This CSV contains mock training data for a weather chatbot.
+# Each row has:
+# - query: A user's possible message
+# - intent: The predicted category of the message
+# - response: Template response for the chatbot to use
+
+user_query,intent
+What is the temperature in Delhi?,current_weather
+Will it rain in Mumbai tomorrow?,tomorrow_forecast
+Hello,greeting
+Good morning,greeting
+Is it cold in Shimla today?,current_weather
+What's the weather in Bangalore?,current_weather
+Will it snow in Manali tomorrow?,tomorrow_forecast
+Hi there,greeting
+Weather forecast for Kolkata tomorrow?,tomorrow_forecast
+How is the weather in Hyderabad?,current_weather
+Will it be sunny in Chennai tomorrow?,tomorrow_forecast
+Namaste,greeting
+Tell me the temperature in Pune.,current_weather
+Rain prediction for Delhi?,tomorrow_forecast
+Good evening,greeting
+Thank you,thank_you
